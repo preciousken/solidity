@@ -13,6 +13,7 @@ async function main() {
   );
 
   const abi = fs.readFileSync("./simpleStorage_sol_SimpleStorage.abi", "utf-8");
+
   const binary = fs.readFileSync("./simpleStorage_sol_SimpleStorage", "utf-8");
   const contractFactory = new ethers.ContractFactory(abi, binary, wallet);
 
