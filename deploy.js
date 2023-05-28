@@ -7,6 +7,7 @@ async function main() {
   const provider = new ethers.providers.JsonRpcProvider(
     "http://127.0.0.1:7545"
   );
+  //
   const wallet = new ethers.Wallet(
     "0xb7ea3b19c718183d95a6f861a1197b0570b7ea2cf7f5cd726130e1a3571114c9",
     provider
