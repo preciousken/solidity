@@ -1,6 +1,7 @@
 require("@nomicfoundation/hardhat-toolbox")
 require("dotenv").config()
 require("@nomiclabs/hardhat-etherscan")
+require("./task/block-number")
 
 const SEPOLIA_RPC_URL = process.env.SEPOLIA_RPC_URL
 const PRIVATE_KEY = process.env.PRIVATE_KEY
